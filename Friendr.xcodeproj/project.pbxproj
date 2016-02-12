@@ -28,6 +28,7 @@
 		3420D6A41C6DBEDA00402512 /* MediaLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3420D68A1C6DBEDA00402512 /* MediaLibiOS.a */; };
 		3420D6A51C6DBEDA00402512 /* libspeex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3420D6951C6DBEDA00402512 /* libspeex.a */; };
 		3420D6A61C6DBEDA00402512 /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3420D69B1C6DBEDA00402512 /* libx264.a */; };
+		3420D6A81C6DC28800402512 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3420D6A71C6DC28800402512 /* Keys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -246,6 +247,7 @@
 		3420D6981C6DBEDA00402512 /* x264.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264.h; sourceTree = "<group>"; };
 		3420D6991C6DBEDA00402512 /* x264_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264_config.h; sourceTree = "<group>"; };
 		3420D69B1C6DBEDA00402512 /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libx264.a; sourceTree = "<group>"; };
+		3420D6A71C6DC28800402512 /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -320,6 +322,7 @@
 				3420D5A21C6DBE9500402512 /* Assets.xcassets */,
 				3420D5A41C6DBE9500402512 /* LaunchScreen.storyboard */,
 				3420D5A71C6DBE9500402512 /* Info.plist */,
+				3420D6A71C6DC28800402512 /* Keys.swift */,
 			);
 			path = Friendr;
 			sourceTree = "<group>";
@@ -839,6 +842,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3420D59E1C6DBE9500402512 /* ViewController.swift in Sources */,
+				3420D6A81C6DC28800402512 /* Keys.swift in Sources */,
 				3420D59C1C6DBE9500402512 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
