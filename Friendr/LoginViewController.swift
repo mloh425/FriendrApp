@@ -39,6 +39,10 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         view.endEditing(true)
     }
     
+    @IBAction func unwindToLoginScreen(segue: UIStoryboardSegue) {
+        
+    }
+    
     func applyStyle() {
         var backgroundImagePath: String?
         let bundle = NSBundle.mainBundle()
